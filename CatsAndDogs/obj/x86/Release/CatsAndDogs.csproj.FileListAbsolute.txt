@@ -1,0 +1,11 @@
+C:\Documents and Settings\Fabio\Configurações locais\Dados de aplicativos\Temporary Projects\CatsAndDogs\bin\Release\CatsAndDogs.exe
+C:\Documents and Settings\Fabio\Configurações locais\Dados de aplicativos\Temporary Projects\CatsAndDogs\bin\Release\CatsAndDogs.pdb
+C:\Documents and Settings\Fabio\Configurações locais\Dados de aplicativos\Temporary Projects\CatsAndDogs\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Fabio\Configurações locais\Dados de aplicativos\Temporary Projects\CatsAndDogs\obj\x86\Release\CatsAndDogs.Form1.resources
+C:\Documents and Settings\Fabio\Configurações locais\Dados de aplicativos\Temporary Projects\CatsAndDogs\obj\x86\Release\CatsAndDogs.Properties.Resources.resources
+C:\Documents and Settings\Fabio\Configurações locais\Dados de aplicativos\Temporary Projects\CatsAndDogs\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Fabio\Configurações locais\Dados de aplicativos\Temporary Projects\CatsAndDogs\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Fabio\Configurações locais\Dados de aplicativos\Temporary Projects\CatsAndDogs\obj\x86\Release\CatsAndDogs.exe
+C:\Documents and Settings\Fabio\Configurações locais\Dados de aplicativos\Temporary Projects\CatsAndDogs\obj\x86\Release\CatsAndDogs.pdb
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\obj\x86\Release\CatsAndDogs.exe
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\obj\x86\Release\CatsAndDogs.pdb

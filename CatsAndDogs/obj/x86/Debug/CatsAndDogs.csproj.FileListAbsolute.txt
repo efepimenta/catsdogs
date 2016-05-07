@@ -1,0 +1,17 @@
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\bin\Debug\CatsAndDogs.exe
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\bin\Debug\CatsAndDogs.pdb
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\obj\x86\Debug\CatsAndDogs.Form1.resources
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\obj\x86\Debug\CatsAndDogs.Properties.Resources.resources
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\obj\x86\Debug\CatsAndDogs.exe
+C:\Documents and Settings\Fabio\meus documentos\visual studio 2010\Projects\CatsAndDogs\CatsAndDogs\obj\x86\Debug\CatsAndDogs.pdb
+C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.exe
+C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.pdb
+C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\bin\Debug\CatsAndDogs.exe
+C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\bin\Debug\CatsAndDogs.pdb
+C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.csprojResolveAssemblyReference.cache
+C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.Form1.resources
+C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.Properties.Resources.resources
+C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.csproj.GenerateResource.Cache
