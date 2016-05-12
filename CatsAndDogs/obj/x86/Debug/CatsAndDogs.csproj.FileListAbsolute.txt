@@ -12,6 +12,6 @@ C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug
 C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\bin\Debug\CatsAndDogs.exe
 C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\bin\Debug\CatsAndDogs.pdb
 C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.csprojResolveAssemblyReference.cache
-C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.Form1.resources
 C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.Properties.Resources.resources
 C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.csproj.GenerateResource.Cache
+C:\Users\Fabio\Dropbox\Unopar\Grupo 3 semestre\Projeto\CatsAndDogs\obj\x86\Debug\CatsAndDogs.MainForm.resources
