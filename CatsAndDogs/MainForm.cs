@@ -11,7 +11,8 @@ namespace CatsAndDogs
 {
     public partial class MainForm : Form
     {
-        private void showTab(TabPage page)
+
+        private void hideAllTabs()
         {
             tabMain.TabPages.Remove(tabWelcome);
             tabMain.TabPages.Remove(tabCliente);
@@ -21,6 +22,12 @@ namespace CatsAndDogs
             tabMain.TabPages.Remove(tabAgenda);
             tabMain.TabPages.Remove(tabServicoManutencao);
             tabMain.TabPages.Remove(tabHistorico);
+            tabMain.TabPages.Remove(tabInicioServico);
+        }
+
+        private void showTab(TabPage page)
+        {
+            this.hideAllTabs();
             tabMain.TabPages.Add(page);
         }
 
@@ -63,6 +70,17 @@ namespace CatsAndDogs
         private void btnHistorico_Click(object sender, EventArgs e)
         {
             this.showTab(tabHistorico);
+        }
+
+        private void btnIniciarServico_Click(object sender, EventArgs e)
+        {
+            this.hideAllTabs();
+            this.showTab(tabInicioServico);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Serviço iniciado com sucesso");
         }
     }
 }
