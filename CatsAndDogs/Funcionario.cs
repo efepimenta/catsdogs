@@ -7,5 +7,13 @@ namespace CatsAndDogs
 {
     class Funcionario
     {
+        private string _nome;
+
+        public string nome
+        {
+            get { return _nome; }
+            set { _nome = value; }
+        }
+
     }
 }

@@ -7,13 +7,14 @@ namespace CatsAndDogs
 {
     class ClienteBase
     {
-        private string nome;
+        private string _nome;
 
-        public string getNome
+        public string nome
         {
-            get { return nome; }
-            set { nome = value; }
+            get { return _nome; }
+            set { _nome = value; }
         }
+
 
     }
 }

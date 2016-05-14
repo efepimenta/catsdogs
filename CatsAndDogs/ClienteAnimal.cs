@@ -7,9 +7,9 @@ namespace CatsAndDogs
 {
     class ClienteAnimal : ClienteBase
     {
-        private char _tipo;
+        private string _tipo;
 
-        public char tipo
+        public string tipo
         {
             get { return _tipo; }
             set { _tipo = value; }

@@ -7,17 +7,18 @@ namespace CatsAndDogs
 {
     class Servico
     {
-        private string _servico;
+        private string _nome;
 
-        public string servico
+        public string nome
         {
-            get { return _servico; }
-            set { _servico = value; }
+            get { return _nome; }
+            set { _nome = value; }
         }
 
-        private float _valor;
 
-        public float valor
+        private double _valor;
+
+        public double valor
         {
             get { return _valor; }
             set { _valor = value; }
