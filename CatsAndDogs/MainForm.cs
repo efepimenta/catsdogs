@@ -39,8 +39,8 @@ namespace CatsAndDogs
             Funcionario func01 = new Funcionario() { nome = "Lilica" };
             funcionario.Add(func01);
             //popular alguns servicos
-            Servico serv01 = new Servico() { nome = "Banho", status = "", valor = 50.00 };
-            Servico serv02 = new Servico() { nome = "Tosa", status = "", valor = 45.00 };
+            Servico serv01 = new Servico() { nome = "Banho", valor = 50.00 };
+            Servico serv02 = new Servico() { nome = "Tosa", valor = 45.00 };
             servico.Add(serv01);
             servico.Add(serv02);
         }
@@ -118,11 +118,11 @@ namespace CatsAndDogs
             {
                 try
                 {
-                    if (age.servico.status != "Concluído") {
+                    if (age.servico.getStatus() != "Concluído") {
                         ListViewItem item = new ListViewItem();
                         item.Text = String.Format("C = {0}, A = {1}, S = {2}, D = {3}, H = {4}", age.cliente.nome, age.animal.nome, age.servico.nome, age.data, age.hora);
                         item.SubItems.Add(age.funcionario.nome);
-                        item.SubItems.Add(age.servico.status);
+                        item.SubItems.Add(age.servico.getStatus());
                         lstManutAgenda.Items.Add(item);
                     }
                 }
@@ -145,7 +145,7 @@ namespace CatsAndDogs
                     ListViewItem item = new ListViewItem();
                     item.Text = String.Format("C = {0}, A = {1}, S = {2}, D = {3}, H = {4}", age.cliente.nome, age.animal.nome, age.servico.nome, age.data, age.hora);
                     item.SubItems.Add(age.funcionario.nome);
-                    item.SubItems.Add(age.servico.status);
+                    item.SubItems.Add(age.servico.getStatus());
                     lstHistorico.Items.Add(item);
                 }
                 catch (Exception)
@@ -166,7 +166,7 @@ namespace CatsAndDogs
             this.showTab(tabInicioServico);
             foreach (Agenda age in agenda)
             {
-                if (age.servico.status != "Concluído")
+                if (age.servico.getStatus() != "")
                 {
                     cboAgendamento.Items.Add(String.Format("C = {0}, A = {1}, S = {2}, D = {3}, H = {4}", age.cliente.nome, age.animal.nome, age.servico.nome, age.data, age.hora));
                 }
@@ -249,7 +249,7 @@ namespace CatsAndDogs
             ag.data = dtpAgenda.Value.Date;
             string hora = string.Format("{0}:{1}:{2}", dtpAgenda.Value.Hour, dtpAgenda.Value.Minute, dtpAgenda.Value.Second);
             ag.hora = DateTime.Parse(hora);
-            ag.servico.status = "Agendado";
+            ag.servico.Agendar();
             agenda.Add(ag);
         }
 
@@ -262,8 +262,7 @@ namespace CatsAndDogs
                 if (lista == cboAgendamento.Text)
                 {
                     age.funcionario = new Funcionario() { nome = cboFuncionário.Text };
-                    age.servico.status = "Em Execução";
-                    MessageBox.Show("sou igual");
+                    age.servico.Iniciar();
                     return;
                 }
             }

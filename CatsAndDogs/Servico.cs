@@ -24,12 +24,26 @@ namespace CatsAndDogs
             set { _valor = value; }
         }
 
-        private string _status;
+        private string _status = "";
 
-        public string status
+        public void Iniciar()
         {
-            get { return _status; }
-            set { _status = value; }
+            this._status = "Em Execução";
+        }
+
+        public void Agendar()
+        {
+            this._status = "Agendado";
+        }
+
+        public void Concluir()
+        {
+            this._status = "Concluído";
+        }
+
+        public string getStatus()
+        {
+            return this._status;
         }
 
     }
